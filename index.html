@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo MFS</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        .outfit{
+            font-family: "Outfit", sans-serif;
+        }
+    </style>
+</head>
+<body class="outfit">
+    <header></header>
+    <main class="flex justify-center">
+        <!-- mobile phone -->
+        <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+                <!-- mobile phone body -->
+                <div class="artboard artboard-demo phone-2">
+                    <div class="card bg-base-100 max-w-sm shrink-0 shadow-2xl">
+                        <!-- form starts here -->
+                        <form class="card-body">
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text font-bold">Enter your phone number</span>
+                                </label>
+                                <input type="email" id="phone-number" placeholder="Enter phone number" class="input input-bordered" autocomplete="off" required />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text font-bold">4 Digit Pin</span>
+                                </label>
+                                <input type="password" id="pin-number" placeholder="Enter pin number" class="input input-bordered" autocomplete="off" required />
+                            </div>
+                            <div class="form-control mt-6">
+                                <button id="button-login" class="btn btn-primary">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
